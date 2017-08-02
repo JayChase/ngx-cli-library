@@ -1,28 +1,26 @@
-# NgxCliLibrary
+# ng-cli-library
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
+How to export and publish library from angular-cli
 
-## Development server
+ng new
+!!remember npm install @types/core-js --save-dev
+tsconfig.lib.json
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+copy library to a build folder so we can do what we want with it without affecting angular cli app
 
-## Code scaffolding
+npm install --save-dev copyfiles
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+inline css and html
 
-## Running unit tests
+https://github.com/ludohenin/gulp-inline-ng2-template
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install gulp --save-dev
+npm install --save-dev gulp-inline-ng2-template
 
-## Running end-to-end tests
+new tasks
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
-## Further help
+now get a package.json into lib which will allow you to publish
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
