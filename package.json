@@ -18,6 +18,10 @@
   "files": [
     "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JayChase/ngx-cli-library.git"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",

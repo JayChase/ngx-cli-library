@@ -1,4 +1,4 @@
-# ng-cli-library
+# ngx-cli-library
 
 How to export and publish library from angular-cli
 
