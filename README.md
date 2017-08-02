@@ -1,5 +1,7 @@
 # ngx-cli-library
 
+**work in progress. Should be done next week**
+
 How to export and publish library from angular-cli
 
 ng new
@@ -24,3 +26,7 @@ new tasks
 
 now get a package.json into lib which will allow you to publish
 
+files
+repo
+main
+typings

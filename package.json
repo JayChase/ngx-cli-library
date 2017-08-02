@@ -19,6 +19,7 @@
     "lib"
   ],
   "main": "./lib/test-library.module.js",
+  "typings": "./lib/test-library.module.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/JayChase/ngx-cli-library.git"
