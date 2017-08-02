@@ -13,7 +13,7 @@
     "clear-build": "rimraf build",
     "inline-build-templates": "gulp inline-build-templates",
     "ngc-build": "ngc -p ./tsconfig.lib.json",
-    "prepublish": "npm run clear-lib && npm run clear-build && npm run inline-build-templates && npm run ngc-build"
+    "prepare": "npm run clear-lib && npm run clear-build && npm run inline-build-templates && npm run ngc-build"
   },
   "files": [
     "lib"
@@ -22,7 +22,7 @@
     "type": "git",
     "url": "https://github.com/JayChase/ngx-cli-library.git"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
