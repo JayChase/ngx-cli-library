@@ -1,32 +1,12 @@
 # ngx-cli-library
 
-**work in progress. Should be done next week**
+Code to accompany the blog post [Publishing a library from an Angular-cli project](https://www.usefuldev.com/blog/post/publishing-a-library-from-an-angular-cli-project).
 
-How to export and publish library from angular-cli
+## getting started with the sample
 
-ng new
-!!remember npm install @types/core-js --save-dev
-tsconfig.lib.json
-
-copy library to a build folder so we can do what we want with it without affecting angular cli app
-
-npm install --save-dev copyfiles
-
-
-
-inline css and html
-
-https://github.com/ludohenin/gulp-inline-ng2-template
-
-npm install gulp --save-dev
-npm install --save-dev gulp-inline-ng2-template
-
-new tasks
-
-
-now get a package.json into lib which will allow you to publish
-
-files
-repo
-main
-typings
+```bash
+git clone https://github.com/JayChase/ngx-cli-library.git
+cd ngx-cli-library
+npm install
+ng serve
+```
