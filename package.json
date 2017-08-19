@@ -1,19 +1,26 @@
 {
   "name": "ngx-cli-library",
-  "version": "1.0.3",
-  "license": "MIT",
+  "version": "1.0.4",
+  "license": "MIT",  
+  "author": "JayChase",
+  "keywords": [
+    "Angular",
+    "Angular-cli",    
+    "NPM",
+    "library-demo"
+  ],
+  "private": false,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "clear-lib": "rimraf lib",
-    "clear-build": "rimraf build",
+    "e2e": "ng e2e",    
+    "cleardown": "rimraf build lib",
     "inline-build-templates": "gulp inline-build-templates",
     "ngc-build": "ngc -p ./tsconfig.lib.json",
-    "prepare": "npm run clear-lib && npm run clear-build && npm run inline-build-templates && npm run ngc-build"
+    "prepare": "npm run cleardown && npm run inline-build-templates && npm run ngc-build"
   },
   "files": [
     "lib"
@@ -24,7 +31,6 @@
     "type": "git",
     "url": "https://github.com/JayChase/ngx-cli-library.git"
   },
-  "private": false,
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
@@ -63,6 +69,7 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
+    "rimraf": "^2.6.1",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
