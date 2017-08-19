@@ -1,6 +1,6 @@
 {
   "name": "ngx-cli-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -38,6 +38,9 @@
     "core-js": "^2.4.1",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
+  },
+  "peerDependencies": {
+    "@angular/core": "^2.3.1 || >=4.0.0"
   },
   "devDependencies": {
     "@angular/cli": "1.2.4",
