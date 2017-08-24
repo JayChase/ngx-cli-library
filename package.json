@@ -1,11 +1,11 @@
 {
   "name": "ngx-cli-library",
-  "version": "1.0.4",
-  "license": "MIT",  
+  "version": "1.0.5",
+  "license": "MIT",
   "author": "JayChase",
   "keywords": [
     "Angular",
-    "Angular-cli",    
+    "Angular-cli",
     "NPM",
     "library-demo"
   ],
@@ -16,7 +16,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",    
+    "e2e": "ng e2e",
     "cleardown": "rimraf build lib",
     "inline-build-templates": "gulp inline-build-templates",
     "ngc-build": "ngc -p ./tsconfig.lib.json",
